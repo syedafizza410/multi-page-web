@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo4.jpg'
+import logo from '../assets/logo2.jpg'
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
       <a href="#home">
         <img src={logo} alt="Logo" className="logo-image" />
       </a>
-
+      
       <div className={`navbar-links ${isMenuOpen ? 'show' : ''}`}>
         <Link to="/">Home</Link>
         <Link to="/memories">Memories</Link>

@@ -39,7 +39,7 @@
     transform: translateY(-50%);
     position: absolute;
     top: 10%;
-    left: 10px;
+    left: 50px;
     transform: translateY(-50%);
     z-index: 4;
     padding-top: 1em;
@@ -86,7 +86,11 @@
   .home-page h1 {
     font-size: 2.5em;
     margin-bottom: 0.5em;
-    margin-top: 60px;
+    margin-top: 50px;
+  }
+
+  .home-page h2 {
+    font-size: 40px;
   }
   
   .home-page p {
@@ -307,7 +311,7 @@
   .about-me {
     background-color: rgba(255, 255, 255, 0.8); 
     padding: 20px;
-    margin-top: 90px;
+    margin-top: 70px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 30%; 
@@ -341,7 +345,7 @@
   .about-her {
     background-color: rgba(255, 255, 255, 0.8); 
     padding: 20px;
-    margin-top: 90px;
+    margin-top: 70px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 30%; 
@@ -375,7 +379,7 @@
   .about-friendship {
   background-color: rgba(255, 255, 255, 0.8); 
   padding: 20px;
-  margin-top: 90px;
+  margin-top: 70px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   width: 30%; 
@@ -434,8 +438,10 @@
     align-items: center;
   }
   .logo-image{
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: -3%;
+    margin-left: -2%;
+    height: 90px;
+    width: 80px;
   }
   .home-video, .home-image {
     width: 80%;
@@ -560,6 +566,12 @@
 }
 
 @media (max-width: 489px) {
+  .logo-image{
+    margin-top: -3%;
+    margin-left: -2%;
+    height: 90px;
+    width: 80px;
+  }
   .navbar-links {
     display: none;
     flex-direction: column;
@@ -601,6 +613,12 @@
 
 /* For screens 365px and below */
 @media (max-width: 365px) {
+  .logo-image{
+    margin-top: -3%;
+    margin-left: -2%;
+    height: 90px;
+    width: 80px;
+  }
   .home-page h1 {
     font-size: 1.5em;
   }
