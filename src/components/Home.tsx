@@ -7,7 +7,6 @@ const Home: React.FC = () => {
     <div className="home-page">
       <h1>𓍯𓂃𓏧♡Our 5 Years of Friendship𓍯𓂃𓏧♡</h1>
       <br/>
-      <h1>𝐼𝑛 𝑀𝑎𝑟𝑐ℎ 2025, 𝑜𝑢𝑟 𝑓𝑟𝑖𝑒𝑛𝑑𝑠ℎ𝑖𝑝 𝑤𝑖𝑙𝑙 𝑐𝑜𝑚𝑝𝑙𝑒𝑡𝑒 6 𝑦𝑒𝑎𝑟𝑠 ❤️</h1>
       <p>🧿This site celebrates the memories of our friendship🧿</p>
       <p>"Alhamdullilah ❤️ Allah has given us the chance to reach our names and prayers to Khane Kaba"
       </p>

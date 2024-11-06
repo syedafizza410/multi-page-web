@@ -17,7 +17,7 @@
   
   .navbar {
     background-color: #ffcc00;
-    padding: 2em;
+    padding: 1.9em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,10 +37,9 @@
     transition: transform 0.5s ease;
     position: absolute;
     transform: translateY(-50%);
-    margin-left: 1.6em;
     position: absolute;
     top: 10%;
-    left: 20px;
+    left: 10px;
     transform: translateY(-50%);
     z-index: 4;
     padding-top: 1em;
@@ -87,6 +86,7 @@
   .home-page h1 {
     font-size: 2.5em;
     margin-bottom: 0.5em;
+    margin-top: 60px;
   }
   
   .home-page p {
@@ -307,7 +307,7 @@
   .about-me {
     background-color: rgba(255, 255, 255, 0.8); 
     padding: 20px;
-    margin-top: 60px;
+    margin-top: 90px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 30%; 
@@ -341,7 +341,7 @@
   .about-her {
     background-color: rgba(255, 255, 255, 0.8); 
     padding: 20px;
-    margin-top: 60px;
+    margin-top: 90px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 30%; 
@@ -375,7 +375,7 @@
   .about-friendship {
   background-color: rgba(255, 255, 255, 0.8); 
   padding: 20px;
-  margin-top: 60px;
+  margin-top: 90px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   width: 30%; 
@@ -432,6 +432,10 @@
   .media-section {
     flex-direction: column;
     align-items: center;
+  }
+  .logo-image{
+    margin-top: 20px;
+    margin-left: 20px;
   }
   .home-video, .home-image {
     width: 80%;
