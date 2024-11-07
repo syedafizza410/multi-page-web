@@ -438,8 +438,8 @@
     align-items: center;
   }
   .logo-image {
-    margin-top: -15px;
-    width: 55px;
+    margin-top: -5px;
+    width: 70px;
   }
   .navbar {
     display: flex;
@@ -487,8 +487,8 @@
     padding: 2em;
   }
   .logo-image {
-    margin-top: -20px;
-    width: 50px;
+    margin-top: -7px;
+    width: 60px;
   }
   .memories-container {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -536,8 +536,8 @@
     padding: 2em;
   }
   .logo-image {
-    margin-top: -25px;
-    width: 45px;
+    margin-top: -10px;
+    width: 50px;
   }
   .media-section {
     gap: 50px;
@@ -587,8 +587,8 @@
     padding: 2em
   }
   .logo-image {
-    margin-top: -30px;
-    width: 40px;
+    margin-top: -15px;
+    width: 45px;
   }
   .navbar-links {
     display: none;
@@ -632,8 +632,8 @@
 /* For screens 365px and below */
 @media (max-width: 365px) {
   .logo-image {
-    width: 35px;
-    margin-top: -35px;
+    width: 40px;
+    margin-top: -20px;
   }
   .home-page h1 {
     font-size: 1.5em;
