@@ -39,7 +39,7 @@
     transform: translateY(-50%);
     position: absolute;
     top: 10%;
-    left: 50px;
+    left: 30px;
     transform: translateY(-50%);
     z-index: 4;
     padding-top: 1em;
@@ -444,7 +444,6 @@
     padding: 2em
   }
   .logo-image{
-    margin-top: 4px;
     height: 90px;
     width: 80px;
   }
@@ -483,7 +482,6 @@
 
 @media (max-width: 991px) {
   .logo-image{
-    margin-top: 4px;
     height: 90px;
     width: 80px;
   }
@@ -533,7 +531,6 @@
 
 @media (max-width: 773px) {
   .logo-image{
-    margin-top: 4px;
     height: 90px;
     width: 80px;
   }
@@ -584,7 +581,6 @@
 
 @media (max-width: 489px) {
   .logo-image{
-    margin-top: 4px;
     height: 90px;
     width: 80px;
   }
@@ -636,7 +632,6 @@
 /* For screens 365px and below */
 @media (max-width: 365px) {
   .logo-image{
-    margin-top: 4px;
     height: 90px;
     width: 80px;
   }
