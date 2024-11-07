@@ -440,6 +440,7 @@
   .logo-image {
     margin-top: -1px;
     width: 80px;
+    height: 120px;
   }
   .navbar {
     display: flex;
@@ -489,6 +490,7 @@
   .logo-image {
     margin-top: -3px;
     width: 70px;
+    height: 110px;
   }
   .memories-container {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -538,6 +540,7 @@
   .logo-image {
     margin-top: -5px;
     width: 80px;
+    height: 100px;
   }
   .media-section {
     gap: 50px;
@@ -589,6 +592,7 @@
   .logo-image {
     margin-top: -7px;
     width: 90px;
+    height: 90px;
   }
   .navbar-links {
     display: none;
@@ -634,6 +638,7 @@
   .logo-image {
     width: 100px;
     margin-top: -9px;
+    height: 80px;
   }
   .home-page h1 {
     font-size: 1.5em;
