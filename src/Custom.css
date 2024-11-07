@@ -477,6 +477,12 @@
 }
 
 @media (max-width: 991px) {
+  .logo-image{
+    margin-top: -3%;
+    margin-left: -2%;
+    height: 90px;
+    width: 80px;
+  }
   .navbar {
     flex-direction: column;
     align-items: center;
@@ -521,6 +527,12 @@
 }
 
 @media (max-width: 773px) {
+  .logo-image{
+    margin-top: -3%;
+    margin-left: -2%;
+    height: 90px;
+    width: 80px;
+  }
   .navbar {
     flex-direction: column;
     align-items: center;
