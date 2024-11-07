@@ -435,7 +435,7 @@
 @media (max-width: 1200px) {
   .logo-image{
     width: 100px;
-    height: 100px;
+    height: 120px;
   }
   .media-section {
     flex-direction: column;
@@ -483,7 +483,7 @@
 @media (max-width: 991px) {
   .logo-image{
     width: 90;
-    height: 90;
+    height: 110;
   }
   .navbar {
     flex-direction: column;
@@ -532,7 +532,7 @@
 @media (max-width: 773px) {
   .logo-image {
     width: 80px;
-    height: 80px;
+    height: 100px;
   }
   .navbar {
     flex-direction: column;
@@ -582,7 +582,7 @@
 @media (max-width: 489px) {
   .logo-image {
     width: 70px;
-    height: 70px;
+    height: 90px;
   }
   .navbar {
     display: flex;
@@ -633,7 +633,7 @@
 @media (max-width: 365px) {
   .logo-image {
     width: 60px;
-    height: 60px;
+    height: 80px;
   }
   .home-page h1 {
     font-size: 1.5em;
