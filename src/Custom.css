@@ -438,8 +438,8 @@
     align-items: center;
   }
   .logo-image {
-    top: 10%;
-    left: 30px;
+    margin-top: -15px;
+    width: 55px;
   }
   .navbar {
     display: flex;
@@ -487,8 +487,8 @@
     padding: 2em;
   }
   .logo-image {
-    top: 10%;
-    left: 30px;
+    margin-top: -20px;
+    width: 50px;
   }
   .memories-container {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -536,8 +536,8 @@
     padding: 2em;
   }
   .logo-image {
-    top: 10%;
-    left: 30px;
+    margin-top: -25px;
+    width: 45px;
   }
   .media-section {
     gap: 50px;
@@ -587,8 +587,8 @@
     padding: 2em
   }
   .logo-image {
-    top: 10%;
-    left: 30px;
+    margin-top: -30px;
+    width: 40px;
   }
   .navbar-links {
     display: none;
@@ -632,8 +632,8 @@
 /* For screens 365px and below */
 @media (max-width: 365px) {
   .logo-image {
-    top: 10%;
-    left: 30px;
+    width: 35px;
+    margin-top: -35px;
   }
   .home-page h1 {
     font-size: 1.5em;
