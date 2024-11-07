@@ -436,6 +436,7 @@
   .logo-image{
     width: 100px;
     height: 120px;
+    margin-bottom: 20px;
   }
   .media-section {
     flex-direction: column;
@@ -484,6 +485,7 @@
   .logo-image{
     width: 90;
     height: 110;
+    margin-bottom: 20px;
   }
   .navbar {
     flex-direction: column;
@@ -533,6 +535,7 @@
   .logo-image {
     width: 80px;
     height: 100px;
+    margin-bottom: 20px;
   }
   .navbar {
     flex-direction: column;
@@ -583,6 +586,7 @@
   .logo-image {
     width: 70px;
     height: 90px;
+    margin-bottom: 20px;
   }
   .navbar {
     display: flex;
@@ -634,6 +638,7 @@
   .logo-image {
     width: 60px;
     height: 80px;
+    margin-bottom: 20px;
   }
   .home-page h1 {
     font-size: 1.5em;
