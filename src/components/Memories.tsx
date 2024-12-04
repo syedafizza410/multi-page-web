@@ -15,8 +15,8 @@ import video9 from '../assets/memory 12.mp4'
 
 interface Memory {
   id: number;
-  imageSrc?: string; // Optional for video
-  videoSrc?: string; // Optional for image
+  imageSrc?: string;
+  videoSrc?: string; 
   title: string;
   description: string;
   isVideo: boolean;
@@ -123,12 +123,12 @@ const MemoriesPage: React.FC = () => {
           {memories.map(memory => (
             <MemoryCard
               key={memory.id}
-              imageSrc={memory.imageSrc!} // Use non-null assertion for TypeScript
-              videoSrc={memory.videoSrc} // Optional, might be undefined
+              imageSrc={memory.imageSrc!} 
+              videoSrc={memory.videoSrc} 
               title={memory.title}
               description={memory.description}
               isVideo={memory.isVideo}
-              onClick={openModal} // Pass the openModal function
+              onClick={openModal} 
             />
           ))}
         </div>

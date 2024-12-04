@@ -2,7 +2,7 @@ import React from 'react';
 
 interface MemoryCardProps {
   imageSrc: string;
-  videoSrc?: string; // Optional, as not all cards will have a video
+  videoSrc?: string;
   title: string;
   description: string;
   isVideo: boolean;
@@ -11,7 +11,7 @@ interface MemoryCardProps {
 
 const MemoryCard: React.FC<MemoryCardProps> = ({ imageSrc, videoSrc, title, description, isVideo, onClick }) => {
   const handleClick = () => {
-    onClick(isVideo ? videoSrc! : imageSrc, isVideo); // Use non-null assertion as we check isVideo
+    onClick(isVideo ? videoSrc! : imageSrc, isVideo); 
   };
 
   return (

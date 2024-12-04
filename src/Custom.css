@@ -633,7 +633,6 @@
 }
 }
 
-/* For screens 365px and below */
 @media (max-width: 365px) {
   .logo-image {
     width: 100px;
